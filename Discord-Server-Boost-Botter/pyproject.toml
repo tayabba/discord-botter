@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "discord-botter"
+version = "0.1.0"
+description = "A simple Discord bot"
+authors = ["Your Name <your@email.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+discord.py = "*"
+python-dotenv = "*"
+requests = "*"
+aiohttp = "*"
+
+[tool.poetry.dev-dependencies]
+# add dev tools if needed, e.g.
+# black = "*"
+# pytest = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
